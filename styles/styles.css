@@ -1,0 +1,338 @@
+/* font */
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: initial;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared styles */
+
+.dark2 {
+    color:#474747;
+}
+
+.dark3 {
+    color: #757575;
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, right bottom
+}
+
+/* Nav styles */
+
+.text {
+    color: #FD6E0A;
+}
+
+.Mary {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.primary-button {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    padding: 18px 36px;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.second-button {
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    background-color: white;
+    color: #FD6E0A;
+    padding: 17px 34px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 230px 0 150px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* header body */
+
+.head-contrainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contrainer {
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 600px;
+    height: 400px;
+    margin-bottom: 176px;
+    /* margin: 185px 165px 176px 71px; */
+}
+
+.head-title {
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.mary-hardy {
+    margin: 0px;
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.script {
+    /* margin-top: 20px; */
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* black box ai fucked up */
+
+.container {
+    background-color: #FFF8F3;
+    padding: 130px 160px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-box {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 30px 40px;
+    max-width: 750px;
+    width: 100%;
+    text-align: center;
+}
+
+.about-box h2 {
+    margin: 0 0 20px 0;
+    font-weight: 700;
+    font-size: 35px;
+    color: black;
+}
+
+.about-me-para {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 0 30px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 120px;
+}
+
+.label {
+    margin-bottom: 6px;
+}
+
+.value {
+    font-weight: 700;
+}
+
+/* Section container */
+.what-i-do-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    max-width: 600px;
+    margin: 0 auto 55px auto;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 250px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-icon {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 25px;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.summery-container {
+    max-width: 1150px;
+    margin: 130px auto 50px;
+    text-align: center;
+}
+
+.page-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 115px;
+}
+
+.content-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.summery-section-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 25px;
+    margin: 0 0 10px 0;
+}
+
+.item-subtitle {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.item-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 50px 30px 0;
+    line-height: 28px;
+}
+
+/* footer chatgpt */
+
+.footer-section {
+  padding: 130px 230px;
+  background-color: #FFF8F3;
+}
+
+.footer-container {
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right {
+  max-width: 450px;
+  margin-right: auto;
+}
+
+.footer-left {
+  max-width: 565px;
+    margin-right: 115px;
+    margin-left: auto;
+}
+
+.footer-left h2, .footer-right h2 {
+  font-size: 35px;
+  margin-bottom: 28px;
+}
+
+.footer-left p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 28px;
+}
+
+.social-icons img{
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+  }
+
+form input, form textarea {
+  width: 100%;
+  padding: 20px;
+  margin: 25px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  font-size: 15px;
+}
+
+form textarea {
+  resize: vertical;
+  height: 100px;
+}
